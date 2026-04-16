@@ -131,7 +131,7 @@ int main(){
     xenon_sound_init();
     xenon_make_it_faster(XENON_SPEED_FULL);
 
-    if (xenon_get_console_type() != REV_CORONA_PHISON) //Not needed for MMC type of consoles! ;)
+    if (xenon_get_console_type() != REV_CORONA_PHISON) // heres your new bitch enjoy her ! ;)
     {
 	    printf(" * nand init\n");
 	    sfcx_init();
